@@ -1,2 +1,2 @@
-# CovidDodge-Game-Unity
+# Covid Dodge Game
 Game berbasis UNITY
