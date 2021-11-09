@@ -38,6 +38,13 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = true;
     }
 
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1f;
+        GameIsPaused = false;
+    }
+
     public void MainMenu()
     {
         Time.timeScale = 1f;
@@ -45,8 +52,8 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = false;
     }
 
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
+    // public void QuitGame()
+    // {
+    //     Application.Quit();
+    // }
 }
