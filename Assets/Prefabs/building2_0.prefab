@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2535109643156610940}
   - component: {fileID: 1885637879790734447}
   - component: {fileID: 7506743651926741586}
-  - component: {fileID: 8909230419595849561}
+  - component: {fileID: 2556722521882453270}
   m_Layer: 0
   m_Name: building2_0
   m_TagString: Building
@@ -145,7 +145,7 @@ PolygonCollider2D:
       - {x: 1.4499999, y: 0.08}
       - {x: 1.4499999, y: 0.34}
       - {x: 1.43, y: 0.41}
---- !u!114 &8909230419595849561
+--- !u!114 &2556722521882453270
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5382730615668972901}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a52f5076cbdec245abed0cf3040b2c0, type: 3}
+  m_Script: {fileID: 11500000, guid: afcd3e5adf2ba6444b6403b3b99994a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6

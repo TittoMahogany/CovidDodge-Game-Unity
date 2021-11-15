@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5598726362687604575}
   - component: {fileID: 7206754878113805030}
   - component: {fileID: 3854124304326248109}
-  - component: {fileID: -8998718191796715201}
+  - component: {fileID: 8050335485545146706}
   m_Layer: 0
   m_Name: building3_0
   m_TagString: Building
@@ -152,7 +152,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-8998718191796715201
+--- !u!114 &8050335485545146706
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3183963322247214195}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a52f5076cbdec245abed0cf3040b2c0, type: 3}
+  m_Script: {fileID: 11500000, guid: afcd3e5adf2ba6444b6403b3b99994a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
