@@ -8,6 +8,8 @@ TagManager:
   - Virus
   - DeathBottom
   - Building
+  - Cloud
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Ground
   - 
   - 
   - 

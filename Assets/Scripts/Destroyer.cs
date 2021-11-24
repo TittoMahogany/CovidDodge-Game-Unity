@@ -18,5 +18,10 @@ public class Destroyer : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
+
+        if (other.gameObject.CompareTag("Cloud"))
+        {
+            Destroy(other.gameObject);
+        }
     }
 }
