@@ -9,6 +9,12 @@ public class Obstacle : MonoBehaviour
     public float speed; 
     
     public GameObject effect;
+    
+    private GameObject audioManager;
+
+    void Start(){
+        audioManager = GameObject.Find("AudioManager");
+    }
 
     // Update is called once per frame
     void Update()
@@ -20,6 +26,8 @@ public class Obstacle : MonoBehaviour
     {
         if(other.CompareTag("Player")){
             //Player takes damage
+
+            audioManager.GetComponent<AudioManager>().DamageHit(true);
 
             Instantiate(effect, transform.position, Quaternion.identity);
 

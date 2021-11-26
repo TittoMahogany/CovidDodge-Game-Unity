@@ -22,12 +22,8 @@ public class Player : MonoBehaviour
 
     public bool isGrounded;
 
-    // private const float _minimumHeldDuration = 0.25f;
-    // private float _spacePressedTime = 0;
-    // private bool _spaceHeld = false;
- 
-
-    // Start is called before the first frame update
+    public AudioSource BGM;
+  
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -71,6 +67,7 @@ public class Player : MonoBehaviour
 
         if (health <= 0)
         {
+            BGM.Stop();
             gameOver.SetActive(true);
             Destroy(gameObject);
         }
@@ -92,29 +89,5 @@ public class Player : MonoBehaviour
             }
         }
 
-        // if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) {
-        //     // Use has pressed the Space key. We don't know if they'll release or hold it, so keep track of when they started holding it.
-        //     _spacePressedTime = Time.timeSinceLevelLoad;
-        //     _spaceHeld = false;
-
-        // } else if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.UpArrow)) {
-        //     if (!_spaceHeld) {
-        //         // Player has released the space key without holding it.
-        //         // TODO: Perform the action for when Space is pressed.
-        //         if (!PauseMenu.GameIsPaused)
-        //         {
-        //             rb.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
-        //         }
-        //     }
-        //     _spaceHeld = false;
-        // }
-    
-        // if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow)) {
-        //     if (Time.timeSinceLevelLoad - _spacePressedTime > _minimumHeldDuration) {
-        //         // Player has held the Space key for .25 seconds. Consider it "held"
-        //         _spaceHeld = true;
-        //         rb.AddForce(Vector2.up * jumpForce); 
-        //     }
-        // }
     }
 }

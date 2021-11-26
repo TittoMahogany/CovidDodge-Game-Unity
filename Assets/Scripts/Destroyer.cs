@@ -23,5 +23,10 @@ public class Destroyer : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
+
+        if (other.gameObject.CompareTag("Tree"))
+        {
+            Destroy(other.gameObject);
+        }
     }
 }

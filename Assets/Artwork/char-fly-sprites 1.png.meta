@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: a9db6612d2b3b5e46a23a46e0f3e2d9c
+guid: 7b8c34c3e360644429f96ba2bcbb4dd3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1364181894750435089
-    second: char-fly-sprites_0
+      213: 6050580028676860025
+    second: char-fly-sprites 1_0
   - first:
-      213: 1817770367012727971
-    second: char-fly-sprites_1
+      213: -948722170871773573
+    second: char-fly-sprites 1_1
   - first:
-      213: 8760246451953640269
-    second: char-fly-sprites_2
+      213: 1591671923407215019
+    second: char-fly-sprites 1_2
   - first:
-      213: -2049693053885109736
-    second: char-fly-sprites_3
+      213: 1935168342824321392
+    second: char-fly-sprites 1_3
   - first:
-      213: 5475135518750644250
-    second: char-fly-sprites_4
+      213: 8497776348022575981
+    second: char-fly-sprites 1_4
   - first:
-      213: 8516741207314502932
-    second: char-fly-sprites_5
+      213: -7955050440216503224
+    second: char-fly-sprites 1_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: char-fly-sprites_0
+      name: char-fly-sprites 1_0
       rect:
         serializedVersion: 2
         x: 86
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1177e9d943c8ee210800000000000000
-      internalID: 1364181894750435089
+      spriteID: 9786b5e8a7af7f350800000000000000
+      internalID: 6050580028676860025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char-fly-sprites_1
+      name: char-fly-sprites 1_1
       rect:
         serializedVersion: 2
         x: 598
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ac660194840a3910800000000000000
-      internalID: 1817770367012727971
+      spriteID: b7686ae463675d2f0800000000000000
+      internalID: -948722170871773573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char-fly-sprites_2
+      name: char-fly-sprites 1_2
       rect:
         serializedVersion: 2
         x: 1111
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d43a299fbb5a29970800000000000000
-      internalID: 8760246451953640269
+      spriteID: ba956a96e21c61610800000000000000
+      internalID: 1591671923407215019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char-fly-sprites_3
+      name: char-fly-sprites 1_3
       rect:
         serializedVersion: 2
         x: 1622
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81aa798f6070e83e0800000000000000
-      internalID: -2049693053885109736
+      spriteID: 07100a6da591bda10800000000000000
+      internalID: 1935168342824321392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char-fly-sprites_4
+      name: char-fly-sprites 1_4
       rect:
         serializedVersion: 2
         x: 2126
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a18914ceeb69bfb40800000000000000
-      internalID: 5475135518750644250
+      spriteID: d631a9cb09a2ee570800000000000000
+      internalID: 8497776348022575981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char-fly-sprites_5
+      name: char-fly-sprites 1_5
       rect:
         serializedVersion: 2
         x: 2630
@@ -236,8 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41599e1210b813670800000000000000
-      internalID: 8516741207314502932
+      spriteID: 84c9494b5cbf99190800000000000000
+      internalID: -7955050440216503224
       vertices: []
       indices: 
       edges: []
