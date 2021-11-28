@@ -8,6 +8,7 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
 
     public GameObject PauseMenuUI;
+    public AudioSource BgMusic; 
 
     // Update is called once per frame
     void Update()
@@ -27,21 +28,25 @@ public class PauseMenu : MonoBehaviour
     public void Resume() 
     {
         PauseMenuUI.SetActive(false);
+        BgMusic.Play();
+
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
 
-    void Pause()
+    public void Pause()
     {
         PauseMenuUI.SetActive(true);
+        BgMusic.Pause();
+
         Time.timeScale = 0f;
         GameIsPaused = true;
     }
 
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         GameIsPaused = false;
     }
 

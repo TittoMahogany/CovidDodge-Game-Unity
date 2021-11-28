@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 23b1c5548101f6d4b94fb250668671a1, type: 3}
-  m_Color: {r: 1, g: 0.6084906, b: 0.6084906, a: 1}
+  m_Color: {r: 0.99215686, g: 0.9490196, b: 0.29411766, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -113,9 +113,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 5
+  speed: 0
   effect: {fileID: 4366672915619348846, guid: 42f321eda7af39f41b36d67c3e7ad5ad, type: 3}
-  damageSfx: {fileID: 8623090481923765976}
 --- !u!82 &8623090481923765976
 AudioSource:
   m_ObjectHideFlags: 0

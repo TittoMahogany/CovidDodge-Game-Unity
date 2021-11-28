@@ -22,13 +22,13 @@ public class Restart : MonoBehaviour
 
     public void PlayAgain()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         isScoreStopped = false;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void MainMenu()
     {
-        SceneManager.LoadScene("MainMenu");
         isScoreStopped = false;
+        SceneManager.LoadScene("MainMenu");
     }
 }

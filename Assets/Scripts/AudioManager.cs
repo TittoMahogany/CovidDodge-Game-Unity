@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour
     public GameObject player;
     public AudioSource damageSfx;
     public AudioSource gameOverSfx;
+    public AudioSource clickSfx;
     
     private int playerHealth;
 
@@ -23,5 +24,11 @@ public class AudioManager : MonoBehaviour
     public void DamageHit(bool collision)
     {
         damageSfx.Play(); 
+    }
+
+    
+    public void BtnClick()
+    {
+        clickSfx.Play(); 
     }
 }
